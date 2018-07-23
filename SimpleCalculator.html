@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script type="text/javascript">
+        function add() {
+            var FirstNumber=Number(document.getElementById('txtfirstnum').value);
+            var SecondNumber=Number(document.getElementById('txtsecondnum').value);
+            var result=FirstNumber+SecondNumber;
+            document.getElementById('txtresult').value=result;
+        };
+        </script>
+    </head>
+    <body>
+        FirstNumber=<input type="text" id="txtfirstnum"> <br/> <br/>
+        SecondNumber=<input type="text" id="txtsecondnum"><br/> <br/>
+        Result=<input type="text" id="txtresult"><br/> <br/>
+        <input type="button" id="btnadd" onclick="add">
+    </body>
+</html>
