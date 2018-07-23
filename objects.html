@@ -3,11 +3,21 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <script type="text/javascript">
+            function Employee(name,age) {
+                    this.name=name;
+                    this.age=age;
+            };
+            var Employee1=new Employee("Sam",28);
+            var Employee2=new Employee("Nag",30);
+        </script>
     </head>
     <body>
         <script type="text/javascript">
             var test_string="Hello! How are you?"
-            document.write(test_string.length);
+            document.write(test_string.length+"<br/>");
+            document.write(Employee1.name+"<br/>");
+            document.write(Employee2.name+"<br/>");
         </script>
     </body>
 </html>
