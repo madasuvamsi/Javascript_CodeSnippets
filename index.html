@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        function details() {
+            var name=prompt("Enter your name");
+            var age=prompt("Enter your age");
+            document.getElementById('displaydetails').value="Welcome "+name+"! Your age is "+age;
+        };
+
+        </script>
+        <form>
+            <input type="button" onclick="details()" value="Click me!">
+            <input type="text" id="displaydetails" name="" value="">
+        </form>
+    </body>
+</html>

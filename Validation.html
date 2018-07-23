@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script type="text/javascript">
+            function validate() {
+                   if(document.getElementById('txtname').value==""){
+                      alert("Enter Valid Name");
+                   }
+                   else if (document.getElementById('txtage').value=="") {
+                       alert("Enter Valid age");
+                   }
+
+            };
+        </script>
+    </head>
+    <body>
+     Name(Required):<input type="text" id="txtname"><br/> <br/>
+     Age(Required):<input type="text" id="txtage"> <br/> <br/>
+     <input type="button" onclick="validate()" value="Submit">
+
+    </body>
+</html>
